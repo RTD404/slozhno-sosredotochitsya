@@ -66,6 +66,7 @@
 
 .header__theme-menu {
   justify-self: end;
+  color: var(--menu-color);
 }
 
 .header__theme-menu-list {

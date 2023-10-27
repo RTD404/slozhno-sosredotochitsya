@@ -26,6 +26,16 @@
   display: none;
 }
 
+@media (min-width: 1024px) {
+  .header__title {
+    --accent-color: #FF0070;
+  }
+
+  .footer__title {
+    --accent-color: #FF0070;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --main-font: 'IBM Plex Mono', Courier, sans-serif;
@@ -38,10 +48,21 @@
     --section-title-color: #353430;
     --title-color: #353430;
     --text-color: #353430;
+    --title-shadow: #FF0070;
     --bg-img: url("../images/cover-image-light.png");
   }
 
   .header__decor {
     display: none;
+  }
+
+  @media (min-width: 1024px) {
+    .header__title {
+      --accent-color: #FF0070;
+    }
+
+    .footer__title {
+      --accent-color: #FF0070;
+    }
   }
 }

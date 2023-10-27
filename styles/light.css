@@ -38,9 +38,9 @@
     --section-title-color: #353430;
     --title-color: #353430;
     --text-color: #353430;
-    --bg-img: url("../images/cover-image-light.png");    
+    --bg-img: url("../images/cover-image-light.png");
   }
-  
+
   .header__decor {
     display: none;
   } 

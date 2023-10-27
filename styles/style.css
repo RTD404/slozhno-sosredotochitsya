@@ -80,7 +80,6 @@
   border: none;
   padding-inline: 13px;
   outline: 1px solid transparent;
-  color: var(--menu-color);
   text-transform: lowercase;
   background: none;
   cursor: pointer;
@@ -101,7 +100,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: 1px solid var(--border-color);
+  border-bottom: 1px solid currentColor;
 }
 
 .header__title {
@@ -160,14 +159,12 @@
 .chapter__paragraph-title {
   font-weight: 700;
   font-size: 18px;
- 
 }
 
 .chapter__paragraph-subtitle {
   margin-block-start: 11px;
   font-weight: 400;
   font-size: 18px;
-
 }
 
 .chapter__paragraph-text {
@@ -219,7 +216,7 @@
 .footer__title {
   color: var(--high-title-color);
   font-weight: 700;
-  font-size: 116px;
+  font-size: var(--high-title-size);
   line-height: 82.5%; /* 95.7px */
   text-shadow: 2px 2px 0px var(--accent-color);
 }

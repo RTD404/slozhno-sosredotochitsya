@@ -17,10 +17,10 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
-  padding: 10px;
-  min-block-size: 100vh;
   height: 100vh;
   min-height: 668px;
+  padding: 10px;
+  min-block-size: 100vh;
 }
 
 .decorated-zone::before {
@@ -123,8 +123,8 @@
   display: grid;
   align-items: start;
   gap: 50px;
-  padding-inline: 10px;
   margin-block-start: 40px;
+  padding-inline: 10px;
 }
 
 .chapter {
@@ -211,36 +211,16 @@
 
 .footer {
   position: relative;
-  min-block-size: 100vh;
-  margin-block-start: 40px;
+  display: grid;
   height: 100vh;
   min-height: 668px;
-  display: grid;
+  margin-block-start: 40px;
+  min-block-size: 100vh;
 }
 
 .footer .logo {
-  text-shadow: 2px 2px 0px var(--accent-color);
   margin: auto auto;
-}
-
-.decorated-zone::before {
-  content: '';
-  position: absolute;
-  inset: auto auto 10px 10px;
-  border-inline-start: 1px solid var(--menu-color);
-  border-block-end: 1px solid var(--menu-color);
-  inline-size: 25px;
-  block-size: 25px;
-}
-
-.decorated-zone::after {
-  content: '';
-  position: absolute;
-  inset: 10px 10px auto auto;
-  border-inline-end: 1px solid var(--menu-color);
-  border-block-start: 1px solid var(--menu-color);
-  inline-size: 25px;
-  block-size: 25px;
+  text-shadow: 2px 2px 0px var(--accent-color);
 }
 
 @media (min-width: 768px) {
@@ -267,14 +247,14 @@
 
   .logo {
     margin-inline-start: -20px;
-    letter-spacing: normal;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    letter-spacing: normal;
   }
 
   .content {
     gap: 80px;
-    padding-inline: 20px;
     margin-block-start: 60px;
+    padding-inline: 20px;
   }
 
   .short-title {
@@ -289,7 +269,7 @@
     max-inline-size: calc((100% - 40px) / 3);
   }
 
-  .chapter__gallery-list   {
+  .chapter__gallery-list {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, min-content);
     grid-template-areas: 
@@ -321,8 +301,8 @@
   }
 
   .footer {
-    text-align: center;
     margin-block-start: 60px;
+    text-align: center;
   }
 
   .footer .logo {

@@ -14,6 +14,7 @@
   --accent-color: #FF8DCB;
   --menu-color: #353430;
   --border-color: #353430;
+  --hover-color: rgba(50, 49, 45, 0.40);
   --high-title-color: #FFC2E6;
   --title-bg-color: #FF8DCB;
   --section-title-color: #353430;
@@ -27,11 +28,7 @@
 }
 
 @media (min-width: 1024px) {
-  .header__title {
-    --accent-color: #FF0070;
-  }
-
-  .footer__title {
+  .logo {
     --accent-color: #FF0070;
   }
 }
@@ -43,6 +40,7 @@
     --accent-color: #FF8DCB;
     --menu-color: #353430;
     --border-color: #353430;
+    --hover-color: rgba(50, 49, 45, 0.40);
     --high-title-color: #FFC2E6;
     --title-bg-color: #FF8DCB;
     --section-title-color: #353430;
@@ -57,11 +55,7 @@
   }
 
   @media (min-width: 1024px) {
-    .header__title {
-      --accent-color: #FF0070;
-    }
-
-    .footer__title {
+    .logo {
       --accent-color: #FF0070;
     }
   }

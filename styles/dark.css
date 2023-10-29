@@ -21,3 +21,7 @@
   --text-color: #F1B2CE;
   --bg-img: url("../images/cover-image-dark.png");
 }
+
+.theme_dark .header__decor {
+  display: flex;
+}

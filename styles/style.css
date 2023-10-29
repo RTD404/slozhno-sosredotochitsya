@@ -20,7 +20,6 @@
   height: 100vh;
   min-height: 668px;
   padding: 10px;
-  min-block-size: 100vh;
 }
 
 .decorated-zone::before {
@@ -216,7 +215,6 @@
   height: 100vh;
   min-height: 668px;
   margin-block-start: 40px;
-  min-block-size: 100vh;
 }
 
 .footer .logo {
